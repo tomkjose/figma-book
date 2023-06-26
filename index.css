@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&family=Poppins:wght@200;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+:root {
+  --primary-color: #013456;
+  --accent-color: #fad405;
+  --font-poppins: "Poppins", sans-serif;
+  --font-istok: "Istok Web", sans-serif;
+  --fw-700: 700;
+  --fw-275: 275;
+}
+
+.header {
+  display: flex;
+  padding-top: 81px;
+  max-width: 1231px;
+  font-family: "Istok Web", sans-serif;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header_title span {
+  font-weight: var(--fw-700);
+  font-size: 40px;
+  color: var(--primary-color);
+}
+.header_navbar {
+  height: 52px;
+  margin-left: 10px;
+}
+.header_navbar a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding-left: 29px;
+  font-size: 36px;
+  font-family: "Istok Web", sans-serif;
+}
+
+.menu_icon,
+.close_icon {
+  display: none;
+}
+.plane_icon {
+  color: var(--accent-color);
+  margin-left: 10px;
+}
+.book {
+  width: 434px;
+  height: 629px;
+}
+
+.warpper {
+  display: flex;
+}
+
+.warpper aside {
+  width: 50%;
+  position: relative;
+}
+
+.book_circle {
+  width: 785px;
+  height: 785px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  position: absolute;
+  margin-top: 46px;
+  right: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 50%;
+  max-width: 556px;
+}
+main h1 {
+  color: var(--primary-color);
+  font-size: 48px;
+  font-family: var(--font-poppins);
+  font-weight: var(--fw-700);
+  margin-top: 91px;
+}
+
+main p {
+  font-size: 20px;
+  font-family: var(--font-poppins);
+  font-weight: 275;
+  margin-bottom: 50px;
+}
+
+.main_buttons {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 571px;
+}
+
+.button_buy-now {
+  padding: 16px 47px;
+  border-radius: 50px;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  font-size: 32px;
+  font-family: var(--font-poppins);
+  font-weight: var(--fw-700);
+  border: none;
+  cursor: pointer;
+}
+
+.button_read-more {
+  margin-left: 49px;
+  padding: 16px 47px;
+  align-items: flex-start;
+  border-radius: 50px;
+  background: #013456;
+  color: white;
+  font-size: 32px;
+  font-family: var(--font-poppins);
+  font-weight: var(--fw-700);
+  cursor: pointer;
+}
